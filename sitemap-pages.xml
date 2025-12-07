@@ -5,49 +5,91 @@
 
   <url>
     <loc>https://savory-meat-delights.example.com/</loc>
-    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
+    <lastmod>2025-12-07T18:16:14.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/chicken-dishes</loc>
-    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
+    <lastmod>2025-12-07T18:16:14.912Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/beef-dishes</loc>
-    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
+    <lastmod>2025-12-07T18:16:14.912Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/turkey-dishes</loc>
-    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
+    <lastmod>2025-12-07T18:16:14.912Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/pork-dishes</loc>
-    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
+    <lastmod>2025-12-07T18:16:14.912Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://savory-meat-delights.example.com/recipe/delicious-recipes-homemade-easy-flavorful-savory-meat-delight</loc>
+    <lastmod>2025-12-07T18:15:56.629Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://savory-meat-delights.example.com/recipe/delicious-and-nutritious-recipes-for-a-healthy-breakfast</loc>
+    <lastmod>2025-12-07T18:15:56.721Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://savory-meat-delights.example.com/recipe/healthy-dinner-recipe-satisfying-low-calorie-stir-fry</loc>
+    <lastmod>2025-12-07T18:15:56.764Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://savory-meat-delights.example.com/recipe/spooky-halloween-meatloaf-recipe-perfect-for-parties</loc>
+    <lastmod>2025-12-07T18:15:56.809Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://savory-meat-delights.example.com/recipe/ultimate-high-protein-recipe-boost-your-meals-with-flavor</loc>
+    <lastmod>2025-12-07T18:15:56.853Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://savory-meat-delights.example.com/recipe/10-delicious-recipes-healthy-easy-for-busy-nights</loc>
+    <lastmod>2025-12-07T18:15:56.897Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://savory-meat-delights.example.com/recipe/healthy-recipes-for-savory-meat-delights-10-must-try-ideas</loc>
+    <lastmod>2025-12-07T18:15:56.942Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://savory-meat-delights.example.com/recipe/authentic-greek-recipes-a-flavorful-mediterranean-journey</loc>
-    <lastmod>2025-12-07T13:56:21.179Z</lastmod>
+    <lastmod>2025-12-07T18:15:56.990Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/recipe/best-recipes-gluten-free-dairy-free-delicious-and-easy</loc>
-    <lastmod>2025-12-07T13:55:34.482Z</lastmod>
+    <lastmod>2025-12-07T18:15:57.034Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/recipe/classic-gnocchi-recipe-fluffy-and-delicious-gnocchi-made-easy</loc>
-    <lastmod>2025-12-07T13:55:34.569Z</lastmod>
+    <lastmod>2025-12-07T18:15:57.079Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
