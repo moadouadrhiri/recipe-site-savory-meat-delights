@@ -27,9 +27,9 @@ User-agent: PerplexityBot
 Allow: /
 
 # Sitemaps
-Sitemap: https://savory-meat-delights.example.com/sitemap.xml
-Sitemap: https://savory-meat-delights.example.com/sitemap-pages.xml
-Sitemap: https://savory-meat-delights.example.com/sitemap-images.xml
+Sitemap: https://a7a74b79.savory-meat-delights.pages.dev/sitemap.xml
+Sitemap: https://a7a74b79.savory-meat-delights.pages.dev/sitemap-pages.xml
+Sitemap: https://a7a74b79.savory-meat-delights.pages.dev/sitemap-images.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
