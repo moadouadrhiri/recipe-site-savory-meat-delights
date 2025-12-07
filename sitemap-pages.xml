@@ -5,31 +5,31 @@
 
   <url>
     <loc>https://savory-meat-delights.example.com/</loc>
-    <lastmod>2025-12-07T14:00:32.759Z</lastmod>
+    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/chicken-dishes</loc>
-    <lastmod>2025-12-07T14:00:32.759Z</lastmod>
+    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/beef-dishes</loc>
-    <lastmod>2025-12-07T14:00:32.759Z</lastmod>
+    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/turkey-dishes</loc>
-    <lastmod>2025-12-07T14:00:32.759Z</lastmod>
+    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://savory-meat-delights.example.com/category/pork-dishes</loc>
-    <lastmod>2025-12-07T14:00:32.759Z</lastmod>
+    <lastmod>2025-12-07T14:01:21.637Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
