@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Savory Meat Delights</title>
+    <link>https://savory-meat-delights.example.com</link>
+    <description>Explore a diverse collection of mouthwatering meat recipes, perfect for any occasion. From ground beef to chicken thighs, we have something to satisfy every meat lover's craving.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Dec 2025 13:56:30 GMT</lastBuildDate>
+    <atom:link href="https://savory-meat-delights.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://savory-meat-delights.example.com/logo.png</url>
+      <title>Savory Meat Delights</title>
+      <link>https://savory-meat-delights.example.com</link>
+    </image>
+    
+    <item>
+      <title><![CDATA[Authentic Greek Recipes: A Flavorful Mediterranean Journey]]></title>
+      <link>https://savory-meat-delights.example.com/recipe/authentic-greek-recipes-a-flavorful-mediterranean-journey</link>
+      <description><![CDATA[Explore authentic Greek recipes with step-by-step instructions. Perfect for family dinners or special occasions. Try these delightful Mediterranean dishes today!]]></description>
+      <pubDate>Sun, 07 Dec 2025 13:56:21 GMT</pubDate>
+      <guid isPermaLink="true">https://savory-meat-delights.example.com/recipe/authentic-greek-recipes-a-flavorful-mediterranean-journey</guid>
+      
+    </item>
+    <item>
+      <title><![CDATA[Classic Gnocchi Recipe: Fluffy and Delicious Gnocchi Made Easy]]></title>
+      <link>https://savory-meat-delights.example.com/recipe/classic-gnocchi-recipe-fluffy-and-delicious-gnocchi-made-easy</link>
+      <description><![CDATA[Discover the secrets of perfect gnocchi! Easy recipes gnocchi guide with tips, techniques, and variations. Try it today for a taste of Italy!]]></description>
+      <pubDate>Sun, 07 Dec 2025 13:55:34 GMT</pubDate>
+      <guid isPermaLink="true">https://savory-meat-delights.example.com/recipe/classic-gnocchi-recipe-fluffy-and-delicious-gnocchi-made-easy</guid>
+      <enclosure url="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Incd5SrsFaXlOl8VGcUrzk8Q/user-OxzG0JBEtLszrY9qRwVp0epv/img-OoolAEjz7hry2VoZZZZV7OM7.png?st=2025-12-07T12%3A51%3A54Z&se=2025-12-07T14%3A51%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-07T13%3A47%3A24Z&ske=2025-12-08T13%3A47%3A24Z&sks=b&skv=2024-08-04&sig=lY/ds6BDhblQ/NumzBSxUKR88igWFnPY0VtWUl/iYIY%3D" type="image/jpeg"/>
+    </item>
+    <item>
+      <title><![CDATA[Best Recipes Gluten Free Dairy Free: Delicious and Easy]]></title>
+      <link>https://savory-meat-delights.example.com/recipe/best-recipes-gluten-free-dairy-free-delicious-and-easy</link>
+      <description><![CDATA[Explore our best recipes gluten free dairy free. Perfect for those with dietary restrictions—try these delicious, easy meals today!]]></description>
+      <pubDate>Sun, 07 Dec 2025 13:55:34 GMT</pubDate>
+      <guid isPermaLink="true">https://savory-meat-delights.example.com/recipe/best-recipes-gluten-free-dairy-free-delicious-and-easy</guid>
+      <enclosure url="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Incd5SrsFaXlOl8VGcUrzk8Q/user-OxzG0JBEtLszrY9qRwVp0epv/img-WabcJ43Ae1CkPXcAsP6RIgQD.png?st=2025-12-07T12%3A54%3A11Z&se=2025-12-07T14%3A54%3A11Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-12-07T12%3A19%3A34Z&ske=2025-12-08T12%3A19%3A34Z&sks=b&skv=2024-08-04&sig=1loJfNOi/%2B/GnKUm/drEQKf9LaVl1pcaJ5H71s75%2BEE%3D" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

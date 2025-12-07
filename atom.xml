@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Savory Meat Delights</title>
+  <subtitle>Explore a diverse collection of mouthwatering meat recipes, perfect for any occasion. From ground beef to chicken thighs, we have something to satisfy every meat lover's craving.</subtitle>
+  <link href="https://savory-meat-delights.example.com/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://savory-meat-delights.example.com" rel="alternate" type="text/html"/>
+  <id>https://savory-meat-delights.example.com/</id>
+  <updated>2025-12-07T13:56:30.225Z</updated>
+  
+  <entry>
+    <title><![CDATA[Authentic Greek Recipes: A Flavorful Mediterranean Journey]]></title>
+    <link href="https://savory-meat-delights.example.com/recipe/authentic-greek-recipes-a-flavorful-mediterranean-journey" rel="alternate" type="text/html"/>
+    <id>https://savory-meat-delights.example.com/recipe/authentic-greek-recipes-a-flavorful-mediterranean-journey</id>
+    <published>2025-12-07T13:56:21.179Z</published>
+    <updated>2025-12-07T13:56:21.179Z</updated>
+    <summary><![CDATA[Explore authentic Greek recipes with step-by-step instructions. Perfect for family dinners or special occasions. Try these delightful Mediterranean dishes today!]]></summary>
+    <author>
+      <name>Savory Meat Delights</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Classic Gnocchi Recipe: Fluffy and Delicious Gnocchi Made Easy]]></title>
+    <link href="https://savory-meat-delights.example.com/recipe/classic-gnocchi-recipe-fluffy-and-delicious-gnocchi-made-easy" rel="alternate" type="text/html"/>
+    <id>https://savory-meat-delights.example.com/recipe/classic-gnocchi-recipe-fluffy-and-delicious-gnocchi-made-easy</id>
+    <published>2025-12-07T13:55:34.569Z</published>
+    <updated>2025-12-07T13:55:34.569Z</updated>
+    <summary><![CDATA[Discover the secrets of perfect gnocchi! Easy recipes gnocchi guide with tips, techniques, and variations. Try it today for a taste of Italy!]]></summary>
+    <author>
+      <name>Savory Meat Delights</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Best Recipes Gluten Free Dairy Free: Delicious and Easy]]></title>
+    <link href="https://savory-meat-delights.example.com/recipe/best-recipes-gluten-free-dairy-free-delicious-and-easy" rel="alternate" type="text/html"/>
+    <id>https://savory-meat-delights.example.com/recipe/best-recipes-gluten-free-dairy-free-delicious-and-easy</id>
+    <published>2025-12-07T13:55:34.482Z</published>
+    <updated>2025-12-07T13:55:34.482Z</updated>
+    <summary><![CDATA[Explore our best recipes gluten free dairy free. Perfect for those with dietary restrictions—try these delicious, easy meals today!]]></summary>
+    <author>
+      <name>Savory Meat Delights</name>
+    </author>
+  </entry>
+</feed>

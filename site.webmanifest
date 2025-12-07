@@ -1,0 +1,21 @@
+{
+  "name": "Savory Meat Delights",
+  "short_name": "Savory Meat ",
+  "description": "Explore a diverse collection of mouthwatering meat recipes, perfect for any occasion. From ground beef to chicken thighs, we have something to satisfy every meat lover's craving.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

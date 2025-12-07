@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Authors | Savory Meat Delights</title>
+  <meta name="description" content="Meet our talented team of recipe developers and food experts at Savory Meat Delights.">
+  <link rel="canonical" href="https://savory-meat-delights.example.com/authors">
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    
+    :root {
+      --primary: #3b82f6;
+      --secondary: #10b981;
+      --font-main: 'Source Sans 3', 'Inter', system-ui, sans-serif;
+      --font-accent: 'Playfair Display', 'Georgia', serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-main); line-height: 1.7; color: #333; background: #fff; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    header { background: #FFFAF5; border-bottom: 1px solid rgba(0,0,0,0.1); padding: 15px 0; position: sticky; top: 0; z-index: 1000; }
+    .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+    header a.logo { color: var(--primary); text-decoration: none; font-family: var(--font-accent); font-weight: 700; font-size: 1.6rem; }
+    nav { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    nav a { color: #666; text-decoration: none; font-size: 0.9rem; padding: 6px 12px; border-radius: 6px; transition: all 0.2s; }
+    nav a:hover { color: var(--primary); background: rgba(0,0,0,0.05); }
+    .search-box { display: flex; align-items: center; gap: 8px; background: #f5f5f5; padding: 8px 15px; border-radius: 25px; }
+    .search-box input { border: none; background: transparent; outline: none; font-size: 0.9rem; width: 150px; }
+    .search-box button { background: none; border: none; cursor: pointer; color: #666; }
+    .page-header { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #3b82f610 0%, #10b98110 100%); }
+    .page-header h1 { font-family: var(--font-accent); font-size: 2.5rem; color: var(--primary); margin-bottom: 15px; }
+    .page-header p { color: #666; max-width: 600px; margin: 0 auto; }
+    .content-section { padding: 60px 0; }
+    footer { background: #222; color: #aaa; padding: 50px 0 30px; margin-top: 60px; }
+    .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; margin-bottom: 40px; }
+    .footer-section h4 { color: white; margin-bottom: 20px; font-size: 1.1rem; }
+    .footer-section ul { list-style: none; }
+    .footer-section ul li { margin-bottom: 10px; }
+    .footer-section ul a { color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .footer-section ul a:hover { color: white; }
+    .footer-bottom { text-align: center; padding-top: 30px; border-top: 1px solid #444; color: #777; font-size: 0.9rem; }
+    @media (max-width: 768px) {
+      .page-header h1 { font-size: 2rem; }
+      .page-header { padding: 40px 20px; }
+      .search-box input { width: 100px; }
+    }
+  
+    .chef-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; padding: 40px 0; }
+    .chef-card { background: white; border-radius: 12px; overflow: hidden; border: 1px dashed #ddd; text-align: center; padding: 30px; transition: all 0.3s; }
+    .chef-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-color: var(--primary); }
+    .chef-image { width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 20px; overflow: hidden; border: 3px dashed #ddd; }
+    .chef-image img { width: 100%; height: 100%; object-fit: cover; }
+    .chef-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%); }
+    .chef-info h2 { font-family: var(--font-accent); font-size: 1.5rem; margin-bottom: 8px; color: #333; }
+    .chef-specialty { color: var(--primary); font-weight: 500; margin-bottom: 15px; }
+    .chef-bio { color: #666; font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px; }
+    .chef-meta { color: #999; font-size: 0.85rem; margin-bottom: 20px; }
+    .chef-social { display: flex; justify-content: center; gap: 12px; }
+    .chef-social a { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #333; color: white; border-radius: 50%; transition: all 0.2s; }
+    .chef-social a:hover { background: var(--primary); transform: scale(1.1); }
+    .section-header { text-align: center; margin-bottom: 10px; }
+    .section-header h1 { position: relative; display: inline-block; font-family: var(--font-accent); font-size: 2rem; color: #333; }
+    .section-header h1::before, .section-header h1::after { content: ''; position: absolute; top: 50%; width: 100px; height: 1px; border-top: 2px dashed #ddd; }
+    .section-header h1::before { right: calc(100% + 20px); }
+    .section-header h1::after { left: calc(100% + 20px); }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <div class="container header-content">
+      <a href="/" class="logo">Savory Meat Delights</a>
+      <nav>
+        <a href="/" >Home</a>
+        <a href="/recipes.html" >Recipes</a>
+        <a href="/categories.html" >Categories</a>
+        <a href="/authors.html" style="color: var(--primary);">Authors</a>
+        <a href="/blog.html" >Blog</a>
+        <div class="search-box">
+          <input type="text" placeholder="Search recipes..." id="search-input" data-testid="input-search">
+          <button type="button" onclick="window.location.href='/search.html?q=' + document.getElementById('search-input').value" data-testid="button-search">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="container">
+    <section class="content-section">
+      <div class="section-header">
+        <h1>MEET OUR TALENTED CONTRIBUTORS</h1>
+      </div>
+      <div class="chef-grid">
+        
+    <article class="chef-card" data-testid="card-chef-seham">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1583394293214-28ez1c0f5c56?w=400" alt="Seham" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Seham</h2>
+        <p class="chef-specialty">Home Cooking</p>
+        <p class="chef-bio">Making cooking simple and enjoyable for everyone...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-marcus-chen">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=400" alt="Marcus Chen" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Marcus Chen</h2>
+        <p class="chef-specialty">Asian Fusion</p>
+        <p class="chef-bio">Fusion cuisine made accessible...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-isabella-romano">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?w=400" alt="Isabella Romano" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Isabella Romano</h2>
+        <p class="chef-specialty">Italian Cuisine</p>
+        <p class="chef-bio">Authentic Italian with a modern twist...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-david-okonkwo">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1574966740793-953ad374e8ae?w=400" alt="David Okonkwo" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>David Okonkwo</h2>
+        <p class="chef-specialty">Soul Food & Comfort</p>
+        <p class="chef-bio">Soul food that nourishes body and soul...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-sophie-laurent">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=400" alt="Sophie Laurent" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Sophie Laurent</h2>
+        <p class="chef-specialty">Baking & Pastry</p>
+        <p class="chef-bio">French pastry made simple...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-raj-patel">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?w=400" alt="Raj Patel" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Raj Patel</h2>
+        <p class="chef-specialty">Indian Cuisine</p>
+        <p class="chef-bio">Authentic Indian flavors for home cooks...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-emma-thompson">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400" alt="Emma Thompson" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Emma Thompson</h2>
+        <p class="chef-specialty">Healthy & Wellness</p>
+        <p class="chef-bio">Healthy recipes that actually taste good...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-carlos-mendez">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=400" alt="Carlos Mendez" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Carlos Mendez</h2>
+        <p class="chef-specialty">Latin American</p>
+        <p class="chef-bio">Bold Latin American flavors...</p>
+        <p class="chef-meta">2 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-aisha-johnson">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400" alt="Aisha Johnson" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Aisha Johnson</h2>
+        <p class="chef-specialty">Quick & Easy</p>
+        <p class="chef-bio">Quick family meals that everyone loves...</p>
+        <p class="chef-meta">1 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+
+    <article class="chef-card" data-testid="card-chef-thomas-weber">
+      <div class="chef-image">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400" alt="Thomas Weber" loading="lazy">
+      </div>
+      <div class="chef-info">
+        <h2>Thomas Weber</h2>
+        <p class="chef-specialty">BBQ & Grilling</p>
+        <p class="chef-bio">BBQ and grilling perfection...</p>
+        <p class="chef-meta">0 recipes</p>
+        <div class="chef-social">
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </article>
+  
+      </div>
+    </section>
+  </main>
+  
+  
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Savory Meat Delights</h4>
+          <p style="color: #888; font-size: 0.9rem; line-height: 1.6;">Explore a diverse collection of mouthwatering meat recipes, perfect for any occasion. From ground beef to chicken thighs, we have something to satisfy every meat lover's craving.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="/recipes.html">All Recipes</a></li>
+            <li><a href="/categories.html">Categories</a></li>
+            <li><a href="/authors.html">Our Authors</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="/category/chicken-dishes.html">Chicken Dishes</a></li>
+            <li><a href="/category/beef-dishes.html">Beef Dishes</a></li>
+            <li><a href="/category/turkey-dishes.html">Turkey Dishes</a></li>
+            <li><a href="/category/pork-dishes.html">Pork Dishes</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a href="/help.html">Help Center</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/search.html">Search</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Savory Meat Delights. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
